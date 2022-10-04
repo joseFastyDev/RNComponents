@@ -69,7 +69,8 @@ export const SlidesScreen = ({ navigation }: Props) => {
         <SafeAreaView
             style={{
                 flex:1,
-                paddingTop: 50
+                paddingTop: 50,
+                backgroundColor: 'white'
             }}
         >
             <Carousel
